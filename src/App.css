@@ -10,7 +10,7 @@ body {
 .app {
   text-align: center;
   padding-top: 20px;
-  
+  position: relative;
 }
 
 h1 {
@@ -72,6 +72,12 @@ button {
 button:hover {
   background-color: pink;
   transform: scale(1.05);
+}
+
+.home-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 @media (max-width: 768px) {

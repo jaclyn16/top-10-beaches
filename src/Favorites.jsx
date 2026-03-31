@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+
+
 function Favorites({ beaches, favorites }) {
     const favoriteBeaches = beaches.filter((beach) =>
         favorites.includes(beach.id)
@@ -5,6 +8,10 @@ function Favorites({ beaches, favorites }) {
 
     return (
         <div className="app">
+            <Link to="/">
+                <button className="home-btn">🏠 Home</button>
+            </Link>
+
             <h1>⭐️ Favorite Beaches</h1>
             
             <div className="beach-container">
