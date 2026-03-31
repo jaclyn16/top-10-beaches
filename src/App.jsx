@@ -1,5 +1,6 @@
 import { Routes, Route, Link } from "react-router-dom";
 import BeachDetails from "./BeachDetails.jsx";
+import Favorites from "./Favorites.jsx";
 
 
 import { useEffect, useState } from "react";
@@ -31,10 +32,12 @@ function App() {
     <Routes>
       {/* home page */}
       <Route path="/" element={
-            
-        <div className="app">
+             <div className="app">
           <h1>🏝️Top 10 Beaches🏝️</h1>
-          <div className="beach-container">
+          <Link to= "/favorites">
+          <button>⭐️View Favorites</button>
+          </Link>
+<div className="beach-container">
             {beaches.map((beach) => (
               <div key={beach.id} className="card">
                 <Link to={`/beach/${beach.id}`}>
@@ -58,8 +61,16 @@ function App() {
       <Route
         path="/beach/:id"
         element={<BeachDetails beaches={beaches} />}
-    />
-    </Routes>
+      />
+      
+      <Route
+        path="/favorites"
+      element={<Favorites beaches={beaches} favorites={favorites} />}
+/>
+ 
+ </Routes >
+
+    
   );
 }
 

@@ -1,6 +1,10 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5e6d3;
+  /* background-color: #f5e6d3; */
+  background-image: url("https://media.istockphoto.com/id/543998692/photo/background-summer.jpg?s=612x612&w=0&k=20&c=bFUlaNOB7lUb2KMM7mWmsJPlEvDDTO-3wyM4uZ9LC8o=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .app {
@@ -30,6 +34,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   max-width: 300px;
   width: 100%;
+  cursor: pointer;
  
 }
 
@@ -47,7 +52,7 @@ h1 {
 
 .card p {
   margin: 5px 0;
-  color: #555555;
+  color: black;
 }
 
 a {
