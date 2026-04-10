@@ -9,7 +9,9 @@ This project is a full-stack web application that displays a list of the top 10 
 Here's the link to view the live app: https://top-10-beaches.netlify.app/
 
 ## 🖼️ Screenshots
+<img width="1200" height="688" alt="Screenshot 2026-04-10 at 11 01 10 AM" src="https://github.com/user-attachments/assets/d5d20452-21f8-4159-a3a1-4b699782fb1d" />
 
+<img width="1209" height="650" alt="Screenshot 2026-04-10 at 11 01 28 AM" src="https://github.com/user-attachments/assets/9b65a935-5012-4606-a562-1fa0eeaca60f" />
 
 
 
