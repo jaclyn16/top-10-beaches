@@ -11,7 +11,7 @@ function App() {
   const [favorites, setFavorites] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3001/get-beaches")
+    fetch("/api/get-beaches")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
